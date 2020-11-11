@@ -26,8 +26,9 @@ github.com/google/go-cmp v0.3.1/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMyw
 github.com/google/go-cmp v0.4.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/uuid v1.1.2/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
-github.com/matopenKW/grpc-server v0.0.0-20201111122221-236777f23607 h1:xRUpSKAf/p0sljpjG+q47zl+0+nAhkcZzV1GafK5apA=
 github.com/matopenKW/grpc-server v0.0.0-20201111122221-236777f23607/go.mod h1:yEjoI8XxlvYDuab+om6ZCfGJW7RIc3f/rYSMKHdqsX8=
+github.com/matopenKW/grpc-server v0.0.0-20201111122602-58097ea5d862 h1:SVKSn/lt0J8f/oEUDoSivucZGgj9US9sX6+XuGNO12k=
+github.com/matopenKW/grpc-server v0.0.0-20201111122602-58097ea5d862/go.mod h1:51Wwj2ngFTY6zQwtUwJq+OmC+MkAXoCXgG1PAsO9kZM=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/exp v0.0.0-20190121172915-509febef88a4/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
