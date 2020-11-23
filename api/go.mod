@@ -5,7 +5,10 @@ go 1.11
 require (
 	github.com/golang/protobuf v1.4.3
 	github.com/google/go-cmp v0.5.3 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2
 	github.com/matopenKW/grpc-server v0.0.0-20201115100854-96b7df1d7423
+	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/zap v1.16.0
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	golang.org/x/sys v0.0.0-20201119102817-f84b799fce68 // indirect
 	golang.org/x/text v0.3.4 // indirect
