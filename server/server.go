@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"google.golang.org/grpc"
 	"log"
 
@@ -18,5 +19,7 @@ func main() {
 	catService := &service.MyCatService{}
 	// 実行したい実処理をseverに登録する
 	pb.RegisterCatServer(server, catService)
+
+	fmt.Println("start grpc server, Port: 19003")
 	server.Serve(listenPort)
 }

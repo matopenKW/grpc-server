@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"net/http"
 
 	"github.com/golang/glog"
@@ -22,6 +23,7 @@ func run() error {
 
 	mux := runtime.NewServeMux()
 	// opts := []grpc.DialOption{grpc.WithInsecure()}
+	fmt.Println("start gateway server, Port: 8080")
 	return http.ListenAndServe(":8080", mux)
 }
 
