@@ -4,10 +4,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	pb "github.com/matopenKW/grpc-server/pb"
+	pb "github.com/matopenKW/grpc-server/pkg/go/cat/v1"
 )
 
 type MyCatService struct {
+
 }
 
 func (s *MyCatService) GetMyCat(ctx context.Context, message *pb.GetMyCatMessage) (*pb.MyCatResponse, error) {

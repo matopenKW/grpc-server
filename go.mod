@@ -44,7 +44,7 @@ require (
 	github.com/google/renameio v0.1.0 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.0.5 // indirect
-	github.com/googleapis/googleapis v0.0.0-20201113234524-be0bdf86cd31 // indirect
+	github.com/googleapis/googleapis v0.0.0-20231111182654-db5d55026cd5 // indirect
 	github.com/hashicorp/golang-lru v0.5.1 // indirect
 	github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6 // indirect
 	github.com/jstemmer/go-junit-report v0.9.1 // indirect

@@ -104,6 +104,8 @@ github.com/googleapis/gax-go/v2 v2.0.4/go.mod h1:0Wqv26UfaUD9n4G6kQubkQ+KchISgw+
 github.com/googleapis/gax-go/v2 v2.0.5/go.mod h1:DWXyrwAJ9X0FpwwEdw+IPEYBICEFu5mhpdKc/us6bOk=
 github.com/googleapis/googleapis v0.0.0-20201113234524-be0bdf86cd31 h1:uREIoaNbwdM7U8Lu7y+Awm0fWg95ip/MhHVH1oY4vLs=
 github.com/googleapis/googleapis v0.0.0-20201113234524-be0bdf86cd31/go.mod h1:XrPm4xpez/lHHyE+8/G+NqQRcB4lg42HF9zQVTvxtXw=
+github.com/googleapis/googleapis v0.0.0-20231111182654-db5d55026cd5 h1:RQuf6Qp9JdL2ClGysJGqvkn+BLzc9ni0oQQ3PfOQUBY=
+github.com/googleapis/googleapis v0.0.0-20231111182654-db5d55026cd5/go.mod h1:XrPm4xpez/lHHyE+8/G+NqQRcB4lg42HF9zQVTvxtXw=
 github.com/grpc-ecosystem/grpc-gateway v1.16.0 h1:gmcG1KaJ57LophUzW0Hy8NmPhnMZb4M0+kPpLofRdBo=
 github.com/grpc-ecosystem/grpc-gateway v1.16.0/go.mod h1:BDjrQk3hbvj6Nolgz8mAMFbcEtjT1g+wF4CSlocrBnw=
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.0.1 h1:X2vfSnm1WC8HEo0MBHZg2TcuDUHJj6kd1TmEAQncnSA=

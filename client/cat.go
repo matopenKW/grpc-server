@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 
-	pb "github.com/matopenKW/grpc-server/pb"
+	pb "github.com/matopenKW/grpc-server/pkg/go/cat/v1"
 )
 
 func main() {
