@@ -1,0 +1,33 @@
+syntax = "proto3";
+package openai.service.v1;
+option go_package = "open_ai/v1";
+
+import "google/api/annotations.proto";
+
+service OpenAIService {
+    rpc GetChatCompletions(GetChatCompletionsRequest) returns (GetChatCompletionsResponse) {
+        option (google.api.http) = {
+            post: "/v1/chat_completion"
+            body: "*"
+        };
+    }
+
+    rpc GetChatCompletionsStream(GetChatCompletionsStreamRequest) returns (GetChatCompletionsStreamResponse) {}
+}
+
+message GetChatCompletionsRequest {
+    string value = 1;
+}
+
+message GetChatCompletionsResponse {
+    string value = 1;
+}
+
+
+message GetChatCompletionsStreamRequest {
+    string value = 1;
+}
+
+message GetChatCompletionsStreamResponse {
+    string value = 1;
+}
